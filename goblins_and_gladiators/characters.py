@@ -268,7 +268,11 @@ class Gladiator(Character):
 
         Returns
         --------
-            If the attack is sucessfull, opponent receives damage from the attack. The amount of damage dealt is equal to the attack_strength attacking character + randomized value - defence_strength of defending chatacter. Note the character who attacks also recieves its own attack_strength + randomized value -5 damage. If the attack misses a string is printed to notify attack has missed and no damage is dealt to either character
+            If the attack is sucessfull, opponent receives damage from the attack. The amount of 
+            damage dealt is equal to the attack_strength attacking character + randomized value 
+            - defence_strength of defending chatacter. Note the character who attacks also recieves 
+            its own attack_strength + randomized value -5 damage. If the attack misses a string is 
+            printed to notify attack has missed and no damage is dealt to either character
         """
         if self == opponent:
             print(f"{self.name} cannot attack itself, enter a different target")
