@@ -110,17 +110,13 @@ Characters must equip an item before using it, this is done with the following c
 
 ### Using Items
 
-Characters can use an amulet with the command:
+Characters can use an item with the command:
 
-`new_amulet.use_amulet(new_character)`
+`new_item.use_item(new_character)`
 
-The amulet increases the users attack strength by a random amount
+An amulet item increases the users attack strength by a random amount
 
-Characters can use armour with the command:
-
-`new_armour.use_armour(new_character)`
-
-The armour increases the users defence strength by 1
+An armour item increases the users defence strength by 1
 
 ## Playing The Game
 ---
