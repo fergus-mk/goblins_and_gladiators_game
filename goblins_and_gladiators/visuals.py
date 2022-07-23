@@ -1,9 +1,12 @@
+# Visual representations for use in game
+
+
 def goblin_visual():
     """
     Prints goblin visual
     """
     print(
-   """
+        """
    ||                                ||
    ||||                            ||||
    |||||                          |||||
@@ -26,12 +29,13 @@ def goblin_visual():
     """
     )
 
+
 def gladiator_visual():
     """
     Prints gladiator visual
     """
     print(
-    """
+        """
                                   ||
                                   ||  
                                   ||
@@ -58,15 +62,15 @@ def gladiator_visual():
               ||||      ||||
            |||||||      |||||||
     """
-
     )
+
 
 def win_visual():
     """
     Prints W for win visual
     """
     print(
-    """
+        """
     ||       ||       ||
     ||       ||       ||
     ||       ||       ||
@@ -76,12 +80,13 @@ def win_visual():
     """
     )
 
+
 def amulet_visual():
     """
     Prints amulet visual
     """
     print(
-    """
+        """
        ||
       |  |
      |    |
@@ -97,12 +102,13 @@ def amulet_visual():
     """
     )
 
+
 def armour_visual():
     """
     Prints armour visual
     """
     print(
-    """
+        """
          ||          ||
       |||||||      |||||||
      ||||||||||||||||||||||
