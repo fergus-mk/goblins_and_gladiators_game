@@ -1,6 +1,7 @@
 from random import randint
-import visuals
 from abc import ABC, abstractmethod
+
+import visuals
 
 
 class Character(ABC):
@@ -131,7 +132,7 @@ class Goblin(Character):
         attack_strength=5,
         defence_strength=3,
         max_hp=10,
-        item="",
+        item=None,
     ):
         """
         Constructor class that initiates Goblin objects
@@ -235,7 +236,7 @@ class Goblin(Character):
 
 
 class Gladiator(Character):
-    def __init__(self, name, attack_strength=6, defence_strength=2, max_hp=11, item=""):
+    def __init__(self, name, attack_strength=6, defence_strength=2, max_hp=11, item=None):
         """
         Constructor class that initiates Gladiator objects
         """
